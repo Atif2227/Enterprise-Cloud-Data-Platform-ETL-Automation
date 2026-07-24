@@ -52,9 +52,8 @@ The result is a fully automated, cloud-native data platform that improves data q
 
 ## Live Dashboard
 
-🔗 **View Power BI Report**
+🔗 **[View Power BI Dashboard](https://app.powerbi.com/)**
 
-> *(Power BI report link will be added here.)*
 
 ---
 
@@ -63,10 +62,11 @@ The result is a fully automated, cloud-native data platform that improves data q
 📷 **Project Screenshots**
 
 > *(Screenshots will be added here.)*
+![](Photos/)
 
 🎥 **Project Demo Video**
 
-> *(Video link will be added here.)*
+![](Videos/)
 
 ---
 
