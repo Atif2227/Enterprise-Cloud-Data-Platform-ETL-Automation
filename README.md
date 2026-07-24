@@ -61,12 +61,13 @@ The result is a fully automated, cloud-native data platform that improves data q
 
 📷 **Project Screenshots**
 
-> *(Screenshots will be added here.)*
-![](Photos)
+> *Photos*
+!(Photos)
 
 🎥 **Project Demo Video**
 
-![](Videos)
+> *Video*
+!(Video)
 
 ---
 
