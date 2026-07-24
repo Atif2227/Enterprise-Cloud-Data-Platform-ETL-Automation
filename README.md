@@ -156,4 +156,4 @@ The result is a fully automated, cloud-native data platform that improves data q
 
 🔗 **Document Link**
 
-> *(Document link will be added here.)*
+> *https://github.com/Atif2227/Enterprise-Cloud-Data-Platform-ETL-Automation/blob/main/Enterprise%20Data%20Integration%20and%20Analytics%20Platform%20using%20Microsoft%20Fabric.docx*
