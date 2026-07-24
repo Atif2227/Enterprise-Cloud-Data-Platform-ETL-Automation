@@ -61,17 +61,17 @@ The result is a fully automated, cloud-native data platform that improves data q
 
 ### Solution Architecture
 
-![Architecture](Photos and Videos/Architecture.png)
+![Solution Architecture](Photos%20and%20Videos/Architecture.png)
 
 ### Data Pipeline
 
-![Pipeline](Photos and Videos/Pipeline.png)
+![Data Pipeline](Photos%20and%20Videos/Pipeline.png)
 
 ### Video Walkthrough
-![walkthrough](Photos and Videos/walkthrough.mp4)
+[View Video](Photos%20and%20Videos/walkthrough.mp4)
 
-### Video Walkthrough
-![Screenshots]
+### Screenshots
+[📁 Screenshots Folder](Photos%20and%20Videos/Screenshots)
 
 ---
 
