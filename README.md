@@ -1,6 +1,14 @@
 # Enterprise-Cloud-Data-Platform-ETL-Automation
 Modernized enterprise reporting by consolidating 12+ years of historical data into a scalable cloud platform with automated ETL pipelines and executive analytics using Microsoft Fabrics
 
+# Introduction
+
+This project demonstrates the design and implementation of a modern enterprise data platform using **Microsoft Fabric**. It consolidates data from multiple sources—including LMS OData, Oracle ERP, and shared file systems—into a centralized Lakehouse, enabling scalable data integration, automated ETL processes, and high-performance analytics.
+
+The solution leverages Microsoft Fabric Data Pipelines, Dataflows Gen2, Notebooks, and a Bronze–Silver–Gold Lakehouse architecture to automate historical and incremental data loading, perform data transformation and validation, and create analytics-ready datasets. A Power BI Semantic Model built on the Gold layer provides a reliable foundation for enterprise reporting and business intelligence.
+
+The result is a fully automated, cloud-native data platform that improves data quality, reduces manual effort, accelerates reporting, and delivers a single source of truth for enterprise decision-making.
+
 # Enterprise Data Integration & Modern Lakehouse Platform using Microsoft Fabric
 
 ## Challenge
