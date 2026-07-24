@@ -61,6 +61,56 @@ The result is a fully automated, cloud-native data platform that improves data q
 
 ### Solution Architecture
 
+## Solution Architecture
+
+```text
+                    Enterprise Data Integration Solution Architecture
+
+ ┌─────────────────────────────────────────────────────────────────────────────┐
+ │                            Data Sources                                     │
+ ├─────────────────────────────────────────────────────────────────────────────┤
+ │ • LMS OData API                                                             │
+ │ • Oracle ERP Database                                                       │
+ │ • Shared Excel Files                                                        │
+ └───────────────────────────────┬─────────────────────────────────────────────┘
+                                 │
+                                 ▼
+ ┌─────────────────────────────────────────────────────────────────────────────┐
+ │              Microsoft Fabric Data Pipelines                               │
+ │      Extract • Orchestrate • Schedule • Incremental Refresh                │
+ └───────────────────────────────┬─────────────────────────────────────────────┘
+                                 │
+                                 ▼
+ ┌─────────────────────────────────────────────────────────────────────────────┐
+ │               Microsoft Fabric Dataflows Gen2                              │
+ │     Data Cleansing • Validation • Standardization • Transformation         │
+ └───────────────────────────────┬─────────────────────────────────────────────┘
+                                 │
+                                 ▼
+ ┌─────────────────────────────────────────────────────────────────────────────┐
+ │             Enterprise Fabric Lakehouse (OneLake)                          │
+ ├─────────────────────────────────────────────────────────────────────────────┤
+ │ Bronze Layer  →  Silver Layer  →  Gold Layer                               │
+ │ Raw Data       Cleaned Data     Analytics-Ready Data                       │
+ └───────────────────────────────┬─────────────────────────────────────────────┘
+                                 │
+                                 ▼
+ ┌─────────────────────────────────────────────────────────────────────────────┐
+ │        Fabric Notebooks (PySpark + Delta Lake MERGE)                       │
+ │      Incremental Processing • UPSERT • Business Rules                      │
+ └───────────────────────────────┬─────────────────────────────────────────────┘
+                                 │
+                                 ▼
+ ┌─────────────────────────────────────────────────────────────────────────────┐
+ │                 Power BI Semantic Model                                    │
+ └───────────────────────────────┬─────────────────────────────────────────────┘
+                                 │
+                                 ▼
+ ┌─────────────────────────────────────────────────────────────────────────────┐
+ │               Power BI Reports & Dashboards                                │
+ └─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ![Solution Architecture](Photos%20and%20Videos/Architecture.png)
 
 ### Data Pipeline
