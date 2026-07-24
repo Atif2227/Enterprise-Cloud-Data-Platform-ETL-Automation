@@ -9,32 +9,6 @@ The solution leverages Microsoft Fabric Data Pipelines, Dataflows Gen2, Notebook
 
 The result is a fully automated, cloud-native data platform that improves data quality, reduces manual effort, accelerates reporting, and delivers a single source of truth for enterprise decision-making.
 
-LMS OData ───────────────┐
-Oracle ERP ──────────────┼──> Microsoft Fabric Data Pipelines
-Shared Excel Files ──────┘          │
-                                    ▼
-                         Microsoft Fabric Dataflows Gen2
-                                    │
-                                    ▼
-                         Enterprise Fabric Lakehouse
-                                    │
-                    ┌───────────────┼───────────────┐
-                    ▼               ▼               ▼
-              Bronze Layer     Silver Layer      Gold Layer
-               Raw Data       Cleaned Data     Analytics-Ready Data
-                    │               │               │
-                    └───────────────┴───────────────┘
-                                    │
-                                    ▼
-                      Fabric Notebooks and PySpark
-                     Incremental Load and Delta MERGE
-                                    │
-                                    ▼
-                         Power BI Semantic Model
-                                    │
-                                    ▼
-                      Power BI Reports and Dashboards
-
 # Enterprise Data Integration & Modern Lakehouse Platform using Microsoft Fabric
 
 ## Challenge
